@@ -38,13 +38,23 @@ body {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+    margin: 0;
+    padding: 5px;
+
+    text-align: center;
     background-color: #1F2937;
     font-size: 12px;
     color: #E5E7EB;
+}
+
+.footer p {
+    margin: 2px;
+    padding: 0;
+}
+
+.footer a {
+    font-weight: 900;
 }
 
 .lander {
@@ -143,24 +153,73 @@ img {
 }
 
 .competitions {
-    padding: 3% 10%;
+    margin: 5% 10%;
+
+    padding: 3% 3%;
+
+    background-color:#1F2937;
+
+    border-radius: 10px;
 }
 
-/*
 .competitions h2 {
     text-align: center;
+
+    margin-bottom: 50px;
+
+    font-size: 32px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
+
 .competitions ul {
     display:flex;
+    gap: 15px;
+    align-items: stretch;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .competitions li {
     flex: 1;
-    list-style-type: none;
-}*/
+    background-color: #F3F4F6;
+    color: #1F2937;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3%;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 5px;
+}
+
+.competitions a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .blog {
-    padding: 3% 10%;
+    padding: 5% 10%;
+
+    background-color: #E5E7EB;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.blog li{
+    font-size: 42;
+    font-weight: 600;
 }
 
 .main {
