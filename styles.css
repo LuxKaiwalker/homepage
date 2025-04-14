@@ -105,6 +105,9 @@ img {
 }
 .projects h2 {
     text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
 }
 .projects ul {
     margin: 0;
@@ -131,9 +134,7 @@ img {
     border: solid 7px #3882f6;
     border-radius: 10px;
 }
-.projects li a {
-    text-decoration: none;
-}
+.projects 
 
 .projects li p {
     font-size: 20px;
@@ -142,7 +143,7 @@ img {
 }
 
 .competitions {
-    padding: 5% 10%;
+    padding: 3% 10%;
 }
 
 /*
@@ -157,6 +158,10 @@ img {
     flex: 1;
     list-style-type: none;
 }*/
+
+.blog {
+    padding: 3% 10%;
+}
 
 .main {
     /*padding:10%;*/
