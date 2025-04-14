@@ -118,9 +118,18 @@ img {
     list-style-type: none;
 
     padding: 2%;
+}
 
-    border: solid 5px #3882f6;
+.project-image {
+    max-width: 100%;
+    height: auto;
+
+
+    border: solid 7px #3882f6;
     border-radius: 10px;
+}
+.projects li a {
+    text-decoration: none;
 }
 
 
