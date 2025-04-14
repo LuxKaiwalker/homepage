@@ -83,6 +83,21 @@ img {
     padding: 6% 10%;
 }
 
+.about h1 {
+    font-size: 44px;
+    font-weight: 900;
+    color: #1F2937;
+
+
+    text-align: center;
+}
+
+.about-txt {
+    font-size: 18px;
+    background-color: #E5E7EB;
+    padding: 5%;
+}
+
 .main {
     /*padding:10%;*/
 }
