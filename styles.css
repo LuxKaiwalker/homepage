@@ -107,6 +107,9 @@ img {
     text-align: center;
 }
 .projects ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display:flex;
 
     align-items: stretch; /* Makes sure all boxes have the same height */
@@ -132,11 +135,17 @@ img {
     text-decoration: none;
 }
 
+.projects li p {
+    font-size: 20px;
+    color: #1F2937;
+    text-align: center;
+}
 
-/*
 .competitions {
     padding: 5% 10%;
 }
+
+/*
 .competitions h2 {
     text-align: center;
 }
