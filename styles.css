@@ -5,6 +5,8 @@ body {
     padding:0;
 
     font-family: Roboto, sans-serif;
+
+    box-sizing: border-box;
 }
 
 .header {
@@ -80,7 +82,7 @@ img {
 }
 
 .about {
-    padding: 6% 10%;
+    padding: 5% 10%;
     color: #1F2937;
 }
 
@@ -99,11 +101,44 @@ img {
 }
 
 .projects {
-    padding: 6% 10%;
+    padding: 5% 10%;
 }
 .projects h2 {
-
+    text-align: center;
 }
+.projects ul {
+    display:flex;
+
+    align-items: stretch; /* Makes sure all boxes have the same height */
+    gap: 30px;
+}
+
+.projects li {
+    flex: 1;
+    list-style-type: none;
+
+    padding: 2%;
+
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
+
+
+/*
+.competitions {
+    padding: 5% 10%;
+}
+.competitions h2 {
+    text-align: center;
+}
+.competitions ul {
+    display:flex;
+}
+
+.competitions li {
+    flex: 1;
+    list-style-type: none;
+}*/
 
 .main {
     /*padding:10%;*/
