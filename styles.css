@@ -217,9 +217,9 @@ img {
     font-weight: 900;
 }
 
-.blog li{
-    font-size: 42;
-    font-weight: 600;
+.blog p{
+    text-align: center;
+    font-size: 18px;
 }
 
 .main {
