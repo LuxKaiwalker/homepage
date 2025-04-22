@@ -20,10 +20,17 @@ body {
 
 .header ul {
     display: flex;
-    gap: 18px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.header ul li{
+    padding: 5px 10px;
+}
+
+.header ul li:hover {
+    background-color: #374151;
 }
 
 .left{
