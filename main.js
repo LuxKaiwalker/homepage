@@ -23,3 +23,11 @@ rightDiv.addEventListener('click', function(event) {
     }
   }
 });
+
+//lets link and parse our github readme onto the main page.
+
+fetch('https://raw.githubusercontent.com/luxkaiwalker/luxkaiwalker/main/README.md')
+.then(response => response.text())
+.then(text => {
+  document.getElementById("readme").innerHTML = marked.parse(text);
+})
